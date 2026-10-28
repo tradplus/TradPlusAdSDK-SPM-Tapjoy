@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.16.0")
+            .exact("15.17.0")
         ),
         .package(
             url: "https://github.com/Tapjoy/swift-packages.git",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPTapjoyAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Tapjoy/releases/download/15.16.0/TPTapjoyAdapter-15.16.0.xcframework.zip",
-            checksum: "79ffd6af131c5793562a729b91d101b24b29ea2e4d1931cf69e672a76344fecd"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Tapjoy/releases/download/15.17.0/TPTapjoyAdapter-15.17.0.xcframework.zip",
+            checksum: "8bce552a401a68335fbe29dd317bf1243c4341b22cae4aec2f08b5dae7799a83"
         ),
     ]
 )
